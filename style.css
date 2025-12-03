@@ -2,16 +2,16 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
 
-
+/*
     * {
         border: 1px solid red;
         
-    } * 
+    } * */
 
 
     .container {
         display: grid;
-        min-width: 100vw;
+        min-width: fit-content;
         min-height: 100vh;
         grid-template-rows: auto;
         grid-template-columns: auto;
@@ -37,7 +37,7 @@
     }
 
     .instruction {
-        color: #b3b3b3;
+        color: #808080;
         
 
     }
