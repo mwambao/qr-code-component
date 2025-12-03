@@ -1,0 +1,48 @@
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    * {
+        border: 1px solid red;
+        
+    } * 
+
+
+    .container {
+        display: grid;
+        min-width: 100vw;
+        min-height: 100vh;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        grid-template-areas: 'image-qr-code';
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+        background-color: #dcdcdc;
+
+
+    }
+    .image-qr-code {
+        grid-area: image-qr-code;
+        background-color: white;
+        width: 340px;
+        text-align: center;
+        border: 1px;
+        border-radius: 2%;
+    }
+
+    .main-statement {
+        font-weight: bold;
+    }
+
+    .instruction {
+        color: #b3b3b3;
+        
+
+    }
+
+    .image-qr-code img {
+        border-radius: 2%;
+        margin-top: 20px;
+    }
