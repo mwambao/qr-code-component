@@ -1,4 +1,16 @@
 
+    :root {
+    --White: hsl(0, 0%, 100%);
+    --Slate-300: hsl(212, 45%, 89%);
+    --Slate-500: hsl(216, 15%, 48%);
+    --Slate-900: hsl(218, 44%, 22%);
+    }
+
+    body {
+        font-size: 15px;
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+    }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -19,13 +31,13 @@
         gap: 0px;
         justify-content: center;
         align-items: center;
-        background-color: #dcdcdc;
+        background-color: var(--Slate-300);
 
 
     }
     .image-qr-code {
         grid-area: image-qr-code;
-        background-color: white;
+        background-color: var(--White);
         width: 340px;
         text-align: center;
         border: 1px;
@@ -33,11 +45,11 @@
     }
 
     .main-statement {
-        font-weight: bold;
+        font-weight: 700;
     }
 
     .instruction {
-        color: #808080;
+        color: var(--Slate-500);
         
 
     }
