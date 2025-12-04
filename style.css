@@ -58,3 +58,21 @@
         border-radius: 2%;
         margin-top: 20px;
     }
+
+@media screen and ( width < 1440px) {  
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+        .image-qr-code {
+        width: 240px;
+    }
+
+    .attribution {
+        height: 3rem;
+        font-size: 11px;
+        background: var(--White);
+    }
+}
