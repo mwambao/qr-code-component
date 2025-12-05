@@ -4,6 +4,7 @@
     --Slate-300: hsl(212, 45%, 89%);
     --Slate-500: hsl(216, 15%, 48%);
     --Slate-900: hsl(218, 44%, 22%);
+    --attribution-color: hsl(228, 45%, 44%);
     }
 
     body {
@@ -12,7 +13,7 @@
         font-weight: 400;
     }
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a { color:  var(--attribution-color);}
 
 /*
     * {
