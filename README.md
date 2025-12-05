@@ -40,7 +40,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-This project enhanced my understanding on the use of grid to lay content on a web page as I managed to place the below html elements in one grid container of 1 row and 1 column. The grid contains 1 grid-template-area named ==image-qr-code== .
+This project enhanced my understanding on the use of grid to lay content on a web page as I managed to place the below html elements in one grid container of 1 row and 1 column. The grid contains 1 grid-template-area named *image-qr-code* .
 
 Below is my code snippet:
 
