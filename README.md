@@ -49,9 +49,9 @@ Below is my code snippet:
     <div class="image-qr-code">
       <img src="images/image-qr-code.png" alt="" width="300" height="300">
 
-      <p class="main-statement">
+      <h3 class="main-statement">
       Improve your front-end skills by building projects
-      </p>
+      </h3>
 
       <p class="instruction">
       Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
